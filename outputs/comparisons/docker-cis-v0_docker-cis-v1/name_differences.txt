@@ -1,0 +1,1263 @@
+Only in first document: /etc/docker/daemon.json
+Only in first document: 1.1.1
+Only in first document: 1.1.1 ensure a separate partition for containers has been created
+Only in first document: 1.1.10
+Only in first document: 1.1.10 ensure auditing is configured for docker files and directories - /etc/default/docker
+Only in first document: 1.1.11
+Only in first document: 1.1.11 ensure auditing is configured for docker files and directories - /etc/docker/daemon.json
+Only in first document: 1.1.12 ensure auditing is configured for docker files and directories - /etc/containerd/config.toml
+Only in first document: 1.1.13 ensure auditing is configured for docker files and directories - /etc/sysconfig/docker
+Only in first document: 1.1.14 ensure auditing is configured for docker files and directories - /usr/bin/containerd 2
+Only in first document: 1.1.15 ensure auditing is configured for docker files and directories - /usr/bin/containerd-shim 2
+Only in first document: 1.1.16 ensure auditing is configured for docker files and directories - /usr/bin/containerd-shim-runc-v1 2
+Only in first document: 1.1.2
+Only in first document: 1.1.2 ensure only trusted users are allowed to control docker daemon
+Only in first document: 1.1.21
+Only in first document: 1.1.22
+Only in first document: 1.1.23
+Only in first document: 1.1.24
+Only in first document: 1.1.25
+Only in first document: 1.1.26
+Only in first document: 1.1.27
+Only in first document: 1.1.28
+Only in first document: 1.1.29
+Only in first document: 1.1.3
+Only in first document: 1.1.3 ensure auditing is configured for the docker daemon
+Only in first document: 1.1.30
+Only in first document: 1.1.4
+Only in first document: 1.1.4 ensure auditing is configured for docker files and directories - /run/containerd
+Only in first document: 1.1.5
+Only in first document: 1.1.5 ensure auditing is configured for docker files and directories - /var/lib/docker
+Only in first document: 1.1.6
+Only in first document: 1.1.6 ensure auditing is configured for docker files and directories - /etc/docker
+Only in first document: 1.1.7
+Only in first document: 1.1.7 ensure auditing is configured for docker files and directories - docker.service
+Only in first document: 1.1.8
+Only in first document: 1.1.8 ensure auditing is configured for docker files and directories - containerd.sock
+Only in first document: 1.1.9
+Only in first document: 1.1.9 ensure auditing is configured for docker files and directories - docker.socket
+Only in first document: 3.20
+Only in first document: 3.5 ensure that the /etc/docker directory ownership is set to root:root
+Only in first document: 3.6 ensure that /etc/docker directory permissions are set to 755 or more restrictively
+Only in first document: 5.4
+Only in first document: access control management
+Only in first document: access granting process
+Only in first document: account monitoring and control
+Only in first document: acquire these components from trusted sources or evaluate the software for vulnerabilities before use.
+Only in first document: add audit rule for /usr/bin/containerd-shim-runc-v1
+Only in first document: add audit rule for /usr/bin/containerd-shim-runc-v2
+Only in first document: add healthcheck instructions
+Only in first document: apparmor enforcement
+Only in first document: apparmor profile creation
+Only in first document: apply secure design principles
+Only in first document: audit /etc/sysconfig/docker file
+Only in first document: audit /etc/sysconfig/docker if applicable
+Only in first document: audit /usr/bin/containerd-shim-runc-v1 if applicable.
+Only in first document: audit configuration
+Only in first document: audit containerd.sock, if applicable.
+Only in first document: audit daemon restart
+Only in first document: audit docker directories
+Only in first document: audit docker files
+Only in first document: audit docker service configuration
+Only in first document: audit ipc namespace sharing
+Only in first document: audit logging
+Only in first document: audit logging level
+Only in first document: audit procedure
+Only in first document: audit registry certificate ownership
+Only in first document: audit rule
+Only in first document: audit rule addition
+Only in first document: audit rule application
+Only in first document: audit rule verification
+Only in first document: audit: you should verify that there is an audit rule present relating to the /etc/containerd/config.toml file.
+Only in first document: audit_write
+Only in first document: auditing
+Only in first document: auditing configuration
+Only in first document: auss is not a supported driver in many linux distributions using deprecated docker engine release 20.10
+Only in first document: auss is not a supported driver in many linux distributions using latest linux kernels
+Only in first document: authorization for docker client commands
+Only in first document: automated
+Only in first document: avoid sharing the host's process namespace with containers
+Only in first document: avoid using update instructions in a single line on the dockerfile
+Only in first document: baseline configuration
+Only in first document: by default, docker related files and directories are not audited. the file /etc/docker/daemon.json may not exist on the system and in that case, this recommendation is not applicable.
+Only in first document: by default, docker related files and directories are not audited. the file /usr/bin/containerd-shim may not be present on the system and in that case, this recommendation is not applicable.
+Only in first document: by default, host devices are not exposed to containers.
+Only in first document: by default, there are no restrictions on storing config secrets in the dockerfiles
+Only in first document: ca certificates rotated
+Only in first document: cap_add
+Only in first document: cap_drop
+Only in first document: cap_override
+Only in first document: centralize, to the extent possible, audit log collection and retention across enterprise assets
+Only in first document: centralized and remote logging is configured
+Only in first document: cgroup default cgroup
+Only in first document: cgroup parent
+Only in first document: cgroup usage confirmation
+Only in first document: check --iptables=false parameter
+Only in first document: check /etc/docker/daemon.json settings
+Only in first document: check docker history for secrets
+Only in first document: check dockerd start-up options
+Only in first document: check with the system administrator to see if there is a key rotation process, and how often the key is rotated.
+Only in first document: chmod 644
+Only in first document: chmod 660
+Only in first document: chown
+Only in first document: chown docker server certificate file
+Only in first document: chown docker server certificate key file
+Only in first document: cis control: uninstall unnecessary services
+Only in first document: collect audit logs
+Only in first document: command
+Only in first document: compare the list of image ids from step 1 and step 2
+Only in first document: configure and use docker content trust
+Only in first document: configure authorization policy
+Only in first document: configure detailed audit logging for enterprise assets
+Only in first document: configure user-defined networks
+Only in first document: consensus review process
+Only in first document: container host hardening
+Only in first document: container image name or id
+Only in first document: container isolation
+Only in first document: container port exposure
+Only in first document: container port mapping
+Only in first document: container privilege restriction
+Only in first document: container readonlyrootfs
+Only in first document: containers are restricted from acquiring new privileges
+Only in first document: continuous vulnerability management
+Only in first document: control the amount of memory that a container is able to use
+Only in first document: controls
+Only in first document: cpushares
+Only in first document: dac_override
+Only in first document: daemon configuration
+Only in first document: data protection
+Only in first document: data security assessment
+Only in first document: data sensitivity classification
+Only in first document: data transmission
+Only in first document: default cgroup usage
+Only in first document: delete users if they are not needed
+Only in first document: detailed audit logging
+Only in first document: detailed audit logs
+Only in first document: device size control
+Only in first document: disable userland proxy on startup
+Only in first document: discuss with the system administrator the need to keep such images on the system
+Only in first document: do not allow in-house developed software to weaken configuration hardening
+Only in first document: do not allow sensitive host system directories such as those listed below to be mounted as container volumes, especially in read-write mode.
+Only in first document: do not use aufs as storage driver for your docker instance
+Only in first document: docker allowed to make changes to iptables
+Only in first document: docker container apparmor profile
+Only in first document: docker container prune
+Only in first document: docker containers
+Only in first document: docker containers running
+Only in first document: docker containers stopped
+Only in first document: docker daemon --selinux-enabled
+Only in first document: docker daemon configuration file
+Only in first document: docker daemon ownership
+Only in first document: docker daemon startup
+Only in first document: docker default apparmor profile
+Only in first document: docker default seccomp profile
+Only in first document: docker file ownership
+Only in first document: docker file permissions
+Only in first document: docker group membership
+Only in first document: docker history <image id>
+Only in first document: docker info --format '{{ .containers }}'
+Only in first document: docker info --format '{{ .containersstopped }}'
+Only in first document: docker inspect --format '{{ .id }}: securityopt={{ .hostconfig.securityopt }} mountlabel={{ .mountlabel }} processlabel={{ .processlabel }}'
+Only in first document: docker is allowed to make changes to iptables
+Only in first document: docker networkmode
+Only in first document: docker root directory
+Only in first document: docker run --interactive --tty --security-opt label=level:topsecret centos /bin/bash
+Only in first document: docker secret management commands
+Only in first document: docker security configuration
+Only in first document: docker server certificate
+Only in first document: docker socket file ownership
+Only in first document: docker socket mapping
+Only in first document: docker storage directory
+Only in first document: docker version update
+Only in first document: docker version verification
+Only in first document: docker.service
+Only in first document: docker.service file ownership
+Only in first document: docker.sock
+Only in first document: docker.sock.permissions
+Only in first document: docker.socket
+Only in first document: docker_content_trust
+Only in first document: dockerd startup options
+Only in first document: dockerfile best practices
+Only in first document: enable apparmor/selinux
+Only in first document: encryption configuration
+Only in first document: enforce detail logging
+Only in first document: enforce detail logging for access or changes to sensitive data
+Only in first document: ensure --iptables parameter is not present or not set to false
+Only in first document: ensure --iptables=false parameter is not present or not set to false
+Only in first document: ensure --live-restore is in use
+Only in first document: ensure /etc/docker directory permissions are set to 755 or more restrictively (automated)
+Only in first document: ensure /etc/docker directory permissions are set to 755  
+Only in first document: ensure all containers connected to the docker0 bridge drop the net_raw capability
+Only in first document: ensure all images are re-built
+Only in first document: ensure all inter-container communication is disabled on the default network bridge
+Only in first document: ensure all new containers are restricted from acquiring new privileges
+Only in first document: ensure all signed artifacts are validated
+Only in first document: ensure audit rules are added for the docker.service file
+Only in first document: ensure auditing is configured for docker files and directories - /etc/containerd/config.toml
+Only in first document: ensure auditing is configured for docker files and directories - /etc/sysconfig/docker
+Only in first document: ensure auditing is configured for docker files and directories - /run/containerd (automated)
+Only in first document: ensure auditing is configured for docker files and directories - /usr/bin/containerd-shim (manual)
+Only in first document: ensure auditing is configured for docker files and directories - /usr/bin/containerd-shim-runc-v2 (manual)
+Only in first document: ensure auditing is configured for docker files and directories - /usr/bin/runc (manual)
+Only in first document: ensure auditing is configured for docker files and directories - docker.socket
+Only in first document: ensure auditing is configured for docker files and directories - docker.socket (automated)
+Only in first document: ensure aufs storage driver is not used (manual)
+Only in first document: ensure authorized software is currently supported
+Only in first document: ensure base device size is not changed until needed (manual)
+Only in first document: ensure centralized and remote logging is configured (manual)
+Only in first document: ensure cgroup usage is confirmed  
+Only in first document: ensure container health is checked at runtime
+Only in first document: ensure container health is checked at runtime  
+Only in first document: ensure container images use trusted base images
+Only in first document: ensure container logs are maintained as json files
+Only in first document: ensure containerd socket file permissions are set to 660 or more restrictively
+Only in first document: ensure containerd socket file permissions are set to 660 or more restrictively  
+Only in first document: ensure containers are restricted from acquiring new privileges  
+Only in first document: ensure containers use only trusted base images  
+Only in first document: ensure content trust is enabled (manual)
+Only in first document: ensure copy is used instead of add in dockerfiles
+Only in first document: ensure cpu priority is set appropriately on containers
+Only in first document: ensure daemon.json file permissions are set to 644  
+Only in first document: ensure detailed audit logging for enterprise assets containing sensitive data
+Only in first document: ensure docker commands always make use of the latest version of their image
+Only in first document: ensure docker commands always make use of the latest version of their image  
+Only in first document: ensure docker is allowed to make changes to iptables  
+Only in first document: ensure docker server certificate file ownership is set to root:root
+Only in first document: ensure docker version is up to date
+Only in first document: ensure docker's secret management commands are used for managing secrets in a swarm cluster
+Only in first document: ensure docker.service file permissions are appropriately set (automated)
+Only in first document: ensure docker.service file permissions are appropriately set  
+Only in first document: ensure docker.socket file ownership is set to root
+Only in first document: ensure docker.socket file ownership is set to root:root
+Only in first document: ensure docker.socket file permissions are set to 644 or more restrictive
+Only in first document: ensure docker.socket file permissions are set to 644 or more restrictive (automated)
+Only in first document: ensure docker.socket file permissions are set to 644  
+Only in first document: ensure docker_content_trust is set to 1
+Only in first document: ensure every artifact in the package has been validated with its signature
+Only in first document: ensure experimental features are not implemented in production  
+Only in first document: ensure healthcheck instructions have been added to container images
+Only in first document: ensure healthcheck instructions have been added to container images  
+Only in first document: ensure host devices are not directly exposed to containers
+Only in first document: ensure images are scanned and rebuilt to include security patches
+Only in first document: ensure iptables is enabled before docker starts
+Only in first document: ensure linux kernel capabilities are restricted within containers  
+Only in first document: ensure logging, per the enterprise’s audit log management process, has been enabled across enterprise assets.
+Only in first document: ensure minimum number of manager nodes have been created in a swarm
+Only in first document: ensure mount propagation mode is not set to shared
+Only in first document: ensure network traffic is restricted between containers on the default bridge  
+Only in first document: ensure only needed ports are open on the container  
+Only in first document: ensure privileged ports are not mapped within containers  
+Only in first document: ensure registry certificate file permissions are set to 444  
+Only in first document: ensure sshd is not run within containers (manual)
+Only in first document: ensure swarm mode is not enabled, if not needed
+Only in first document: ensure that /etc/default/docker file permissions are set to 644  
+Only in first document: ensure that /etc/sysconfig/docker file ownership is set to root:root  
+Only in first document: ensure that /etc/sysconfig/docker file permissions are set to 644  
+Only in first document: ensure that a daemon-wide custom seccomp profile is applied if appropriate
+Only in first document: ensure that a user for the container has been created (manual)
+Only in first document: ensure that all containers have their ipc namespace enabled
+Only in first document: ensure that all containers on a docker host share resources equally
+Only in first document: ensure that all docker swarm overlay networks have the encrypted flag
+Only in first document: ensure that all, but local, registries are secure
+Only in first document: ensure that container health is checked at runtime  
+Only in first document: ensure that containerd socket file ownership is set to root:root  
+Only in first document: ensure that containers are running in defined cgroups
+Only in first document: ensure that containers use only trusted base images
+Only in first document: ensure that containers use only trusted base images (manual)
+Only in first document: ensure that daemon.json file ownership is set to root:root  
+Only in first document: ensure that daemon.json file permissions are set to 
+			644 or more restrictive (manual)
+Only in first document: ensure that daemon.json file permissions are set to 644  
+Only in first document: ensure that docker commands always make use of the latest version of their image
+Only in first document: ensure that docker exec commands are not used with the
+Only in first document: ensure that docker secret management is used in your environment where this is in line with your it security policy.
+Only in first document: ensure that docker server certificate file permissions are set to 444 or more restrictively  
+Only in first document: ensure that docker server certificate key file ownership is set to root:root  
+Only in first document: ensure that docker server certificate key file permissions are set to 400  
+Only in first document: ensure that docker socket file ownership is set to root:docker  
+Only in first document: ensure that docker socket file permissions are set to 660 or more restrictively  
+Only in first document: ensure that docker's default bridge "docker0" is not used  
+Only in first document: ensure that docker's default seccomp profile is applied
+Only in first document: ensure that docker-default blocked calls have been carefully scrutinized and address some critical vulnerabilities/issues within container environments (for example, kernel key ring calls)
+Only in first document: ensure that docker.service file permissions are appropriately set (automated)
+Only in first document: ensure that docker.service file permissions are appropriately set  
+Only in first document: ensure that docker.socket file ownership is set to root:root  
+Only in first document: ensure that docker.socket file permissions are set to 644 or more restrictive  
+Only in first document: ensure that docker.socket file permissions are set to 644 or more restrictively
+Only in first document: ensure that docker.socket file permissions are set to 644 or more restrictively  
+Only in first document: ensure that docker.socket file permissions are set to 644  
+Only in first document: ensure that either the --log-level parameter is not present or if present, then it is set to info.
+Only in first document: ensure that experimental features are not implemented in production
+Only in first document: ensure that healthcheck instructions have been added to container images
+Only in first document: ensure that images are scanned and rebuilt to include security patches
+Only in first document: ensure that incoming container traffic is bound to a specific host interface
+Only in first document: ensure that linux kernel capabilities are restricted within containers
+Only in first document: ensure that local logging has been enabled on all systems and networking devices.
+Only in first document: ensure that management plane traffic is separated from data plane traffic.
+Only in first document: ensure that no insecure registries are in use
+Only in first document: ensure that only approved ports, protocols and services are running
+Only in first document: ensure that only needed ports are open on the container  
+Only in first document: ensure that privileged containers are not used
+Only in first document: ensure that privileged ports are not mapped within containers
+Only in first document: ensure that registry certificate file ownership is set to  
+Only in first document: ensure that registry certificate file permissions are set to 444  
+Only in first document: ensure that registry certificate file permissions are set to  
+Only in first document: ensure that sshd is not run within containers
+Only in first document: ensure that swarm manager is run in auto-lock mode (manual)
+Only in first document: ensure that the 'on-failure' container restart policy is set to '5'
+Only in first document: ensure that the /etc/default/docker file ownership is set to 
+			root:root (manual)
+Only in first document: ensure that the /etc/default/docker file permissions are 
+			set to 644 or more restrictively (manual)
+Only in first document: ensure that the /etc/default/docker file permissions are 644 or more restrictively (manual)
+Only in first document: ensure that the /etc/docker directory ownership is set to root:root  
+Only in first document: ensure that the /etc/docker directory ownership is set to  
+Only in first document: ensure that the /etc/docker directory permissions are set to 400 or more restrictively  
+Only in first document: ensure that the /etc/docker directory permissions are set to 444 or more restrictively  
+Only in first document: ensure that the /etc/docker directory permissions are set to 644 or more restrictively  
+Only in first document: ensure that the /etc/docker directory permissions are set to  
+Only in first document: ensure that the /etc/sysconfig/docker file ownership is 
+			set to root:root (manual)
+Only in first document: ensure that the /etc/sysconfig/docker file permissions are 
+			set to 644 or more restrictively (manual)
+Only in first document: ensure that the /etc/sysconfig/docker file permissions are 644 or more restrictively (manual)
+Only in first document: ensure that the /etc/sysconfig/docker file permissions are set to 400 or more restrictively  
+Only in first document: ensure that the container's root filesystem is mounted as read-only
+Only in first document: ensure that the containerd socket file ownership is 
+			set to root:root (automated)
+Only in first document: ensure that the containerd socket file ownership is set to 
+			root:root (automated)
+Only in first document: ensure that the containerd socket file ownership is set to root:root
+Only in first document: ensure that the containerd socket file permissions are
+Only in first document: ensure that the containerd socket file permissions are 
+			set to 660 or more restrictively (automated)
+Only in first document: ensure that the containerd socket file permissions are 660 or more restrictively (automated)
+Only in first document: ensure that the daemon.json file ownership is set to 
+			root:root (manual)
+Only in first document: ensure that the daemon.json file permissions are set to 644 or more restrictively  
+Only in first document: ensure that the default ulimit is honored
+Only in first document: ensure that the default ulimit is overwritten at runtime
+Only in first document: ensure that the docker containerd socket file ownership is set to root:root  
+Only in first document: ensure that the docker containerd socket file permissions are set to 660 or more restrictively  
+Only in first document: ensure that the docker daemon configuration file has the following configuration included "log-level": "info"
+Only in first document: ensure that the docker daemon start-up options and any settings in /etc/docker/daemon.json should be reviewed
+Only in first document: ensure that the docker daemon starts a userland proxy service for port forwarding whenever a port is exposed
+Only in first document: ensure that the docker server certificate file permissions are set to 400 (manual)
+Only in first document: ensure that the docker server certificate key file ownership is set to root:root
+Only in first document: ensure that the docker server certificate key file permissions are set to 400  
+Only in first document: ensure that the docker socket file permissions are set to 660
+Only in first document: ensure that the docker socket is not mounted inside any containers  
+Only in first document: ensure that the docker.service file ownership and group ownership are correctly set to root
+Only in first document: ensure that the docker.service file ownership is set to root:root  
+Only in first document: ensure that the dockerfile for each container image contains the information below: user <username or id>
+Only in first document: ensure that the files /etc/subuid and /etc/subgid exist.
+Only in first document: ensure that the key was last rotated on a swarm manager node
+Only in first document: ensure that tls ca certificate file permissions are set to  
+Only in first document: ensure that unnecessary packages are not installed in the container
+Only in first document: ensure the --cgroup-parent parameter is either not set or is set as appropriate non-default cgroup
+Only in first document: ensure the --default-ulimit parameter is set as appropriate
+Only in first document: ensure the /etc/docker directory ownership is set to root:root
+Only in first document: ensure the /etc/docker directory ownership is set to root:root (automated)
+Only in first document: ensure the container's root filesystem is mounted as read only (manual)
+Only in first document: ensure the containerd socket file ownership is set to root:root
+Only in first document: ensure the containerd socket file permissions are set to 660 or more restrictively
+Only in first document: ensure the default cgroup usage has been confirmed
+Only in first document: ensure the default ulimit is configured appropriately  
+Only in first document: ensure the docker daemon is available remotely over a tcp port
+Only in first document: ensure the docker daemon is configured with a custom seccomp profile
+Only in first document: ensure the docker daemon is enabled before starting
+Only in first document: ensure the docker daemon is not disabled
+Only in first document: ensure the docker daemon is running as a non-root user
+Only in first document: ensure the docker server certificate file permissions are set to 444  
+Only in first document: ensure the docker server certificate key file permissions are set to 400 (manual)
+Only in first document: ensure the docker server certificate key file permissions are set to 400 or more restrictively
+Only in first document: ensure the docker server certificate key file permissions are set to 400  
+Only in first document: ensure the docker socket file has permissions of 660 or are configured more restrictively
+Only in first document: ensure the host specific security guidelines are followed
+Only in first document: ensure the host's process namespace is not shared
+Only in first document: ensure the management plane address is different from the data plane address.
+Only in first document: ensure the minimum number of manager nodes is created in a swarm
+Only in first document: ensure the pids cgroup limit is used
+Only in first document: ensure the pids cgroup limit is used  
+Only in first document: ensure there is an audit rule applied to the /etc/docker directory
+Only in first document: ensure there is an audit rule associated with the /etc/default/docker file
+Only in first document: ensure there is an audit rule corresponding to /usr/bin/containerd file
+Only in first document: ensure there is no process for ssh server
+Only in first document: ensure tls authentication for docker daemon is configured (manual)
+Only in first document: ensure tls authentication for docker daemon is configured  
+Only in first document: ensure, if applicable, an apparmor profile is enabled  
+Only in first document: ensure, if applicable, selinux security options are set  
+Only in first document: enterprise assets and software
+Only in first document: establish and maintain an audit log management process
+Only in first document: establish secure configuration posture
+Only in first document: establish secure configuration process
+Only in first document: execute the command stat -c %a /etc/sysconfig/docker
+Only in first document: experimental features
+Only in first document: experimental features are not implemented in production
+Only in first document: expiry duration
+Only in first document: explicit storage locations
+Only in first document: feedback review
+Only in first document: file ownership and group ownership
+Only in first document: file system ownership
+Only in first document: file system permissions
+Only in first document: firewall implementation
+Only in first document: fowner
+Only in first document: fsetid
+Only in first document: general configuration
+Only in first document: hairpin nat
+Only in first document: healthcheck
+Only in first document: host process namespace
+Only in first document: host process namespace sharing
+Only in first document: hostconfig.kernelmemory
+Only in first document: hostconfig.memory
+Only in first document: id
+Only in first document: image sprawl
+Only in first document: image versioning
+Only in first document: impact
+Only in first document: impact statement
+Only in first document: initial benchmark development
+Only in first document: insecure registries
+Only in first document: insecure registries are not used
+Only in first document: insecure registry usage
+Only in first document: install verified packages
+Only in first document: iptables changes
+Only in first document: iptables enabled before docker daemon starts
+Only in first document: kill
+Only in first document: linux hosts specific configuration
+Only in first document: list all image ids that are currently instantiated
+Only in first document: list all the running instances of containers by executing the command below: docker ps --quiet
+Only in first document: listen address configuration
+Only in first document: live restore
+Only in first document: live restore enabled property
+Only in first document: live restore is enabled
+Only in first document: log level
+Only in first document: logging and monitoring
+Only in first document: logging centralized
+Only in first document: maintain documented, standard security configuration standards for all authorized operating systems and software
+Only in first document: maintain key rotation records and ensure that you establish a pre-defined frequency for key rotation.
+Only in first document: maintain secure images or templates for all systems in the enterprise
+Only in first document: manage the security life cycle of in-house developed, hosted, or acquired software
+Only in first document: manual
+Only in first document: map ports
+Only in first document: memoryswap
+Only in first document: mknod
+Only in first document: monitor applications and libraries for vulnerabilities
+Only in first document: monitor base operating system for vulnerabilities
+Only in first document: mounting read-only
+Only in first document: mounting root filesystem read-only
+Only in first document: net_bind_service
+Only in first document: net_raw
+Only in first document: network bridge configuration
+Only in first document: network bridge enablement
+Only in first document: network capability
+Only in first document: network capability restriction
+Only in first document: network control
+Only in first document: network ports
+Only in first document: network traffic restriction
+Only in first document: network version control
+Only in first document: no new privileges
+Only in first document: no_new_privileges
+Only in first document: node certificates rotated
+Only in first document: not enable swarm mode
+Only in first document: not install unnecessary packages
+Only in first document: not use dockerfile copy
+Only in first document: number of manager nodes
+Only in first document: only needed ports are open on the container
+Only in first document: partition
+Only in first document: partition management
+Only in first document: pidslimit limit
+Only in first document: port management
+Only in first document: port mapping
+Only in first document: prevent caching by using update instructions with install instructions and version pinning
+Only in first document: process level isolation
+Only in first document: rationale
+Only in first document: read-only mount
+Only in first document: references
+Only in first document: registry certificate
+Only in first document: remediation procedure
+Only in first document: remediation: not create a mapping of sensitive directories from the host to container volumes.
+Only in first document: remove setuid and setgid permissions on executables requiring them
+Only in first document: restart audit daemon
+Only in first document: restrict /etc/default/docker file permissions to 644 or more restrictively
+Only in first document: restrict /etc/sysconfig/docker file permissions to 644 or more
+Only in first document: restrict administrator privileges to dedicated
+Only in first document: restrict kernel capabilities
+Only in first document: review /etc/docker/daemon.json
+Only in first document: review /etc/docker/daemon.json for --iptables=false setting
+Only in first document: review docker images
+Only in first document: review dockerd startup options
+Only in first document: review the list and ensure that everything installed is actually required
+Only in first document: review the software list to verify software support at least monthly, or more frequently.
+Only in first document: rotate cgroup usage
+Only in first document: run arguments
+Only in first document: run as a non-root user
+Only in first document: run as root
+Only in first document: run docker daemon as non-root user
+Only in first document: run docker images to check for secrets
+Only in first document: run the below command for each image in the list above, and look for any secrets
+Only in first document: run the command below to get the list of images
+Only in first document: run the command below:
+Only in first document: run the docker daemon as a non-root user
+Only in first document: run the docker daemon as a non-root user, if possible  
+Only in first document: run the following command: chmod 755 /etc/docker
+Only in first document: scan and rebuild images
+Only in first document: seccomp profile application
+Only in first document: secure design principles
+Only in first document: secure images
+Only in first document: security benefit
+Only in first document: security control
+Only in first document: security hardening
+Only in first document: security policy review
+Only in first document: selinux-enabled
+Only in first document: set `--userland-proxy=false`
+Only in first document: set daemon.json file ownership to root
+Only in first document: set docker server certificate file permissions to 444 or more restrictively (manual)
+Only in first document: set file permissions to 644
+Only in first document: set permissions
+Only in first document: set registry certificate file ownership
+Only in first document: set the file permissions for this file to 644
+Only in first document: set the file permissions of the docker server certificate file to 444
+Only in first document: set the ownership of the containerd socket file to root and group owned by root
+Only in first document: set the ownership of the containerd socket file to root:root
+Only in first document: set the pids limit value as appropriate
+Only in first document: setfcap
+Only in first document: setgid
+Only in first document: setpcap
+Only in first document: setuid
+Only in first document: sshd not run in containers
+Only in first document: start docker daemon with --authorization-plugin
+Only in first document: storage driver options
+Only in first document: storage driver selection
+Only in first document: swarm services binding
+Only in first document: swarm services bound to a specific host interface
+Only in first document: sys_chroot
+Only in first document: sysconfig/docker file ownership
+Only in first document: sysconfig/docker file permissions
+Only in first document: systemctl restart auditd
+Only in first document: the aufs storage driver is based on a linux kernel patch-set that is unlikely to be merged into the main os kernel
+Only in first document: the container host has been hardened
+Only in first document: the default ulimit is configured appropriately
+Only in first document: the version of docker is up to date
+Only in first document: this sets the file permissions of the containerd socket file to 660
+Only in first document: tls authentication for docker daemon is configured
+Only in first document: tls ca certificate file
+Only in first document: to review the dockerd startup options, use: dockerd --authorization-plugin=<plugin_id>
+Only in first document: to review the dockerd startup options, use: ps -ef | grep dockerd
+Only in first document: traffic filtering between network segments
+Only in first document: ulimit configuration
+Only in first document: use a secrets management tool
+Only in first document: use docker's user-defined networks for container networking
+Only in first document: use latest image version
+Only in first document: use pid cgroup limit
+Only in first document: use pull-by-digest to get specific images from the registry
+Only in first document: use standard hardening configuration templates for application infrastructure
+Only in first document: use trusted base images
+Only in first document: use ulimit
+Only in first document: use unique passwords for all enterprise assets
+Only in first document: use up-to-date and trusted third-party software
+Only in first document: use up-to-date and trusted third-party software components
+Only in first document: use up-to-date and trusted third-party software components.
+Only in first document: user namespace remapping is incompatible with a number of docker features and also breaks some of its functionalities.
+Only in first document: userland proxy disabled
+Only in first document: userland proxy is disabled
+Only in first document: v7
+Only in first document: v8
+Only in first document: verify container network configuration
+Only in first document: verify file ownership
+Only in first document: verify host device access within containers
+Only in first document: verify iptables is set to true by default
+Only in first document: verify registry certificate file ownership
+Only in first document: verify that acquired software is still supported
+Only in first document: verify that the /etc/default/docker file permissions are correctly set to 644 or more restrictively
+Only in first document: verify that the /etc/docker directory permissions are correctly set to 755 or more restrictively
+Only in first document: verify that the /etc/docker directory permissions are set to 755 or more restrictively
+Only in first document: verify that the file permissions are correctly set to 644 or more restrictively
+Only in first document: version control ig 1 ig 2 ig 3 v8
+Only in first document: version pinning
+Only in first document: volume creation
+Only in first document: volume mounts
+Only in first document: you should execute the command below to verify that the docker server certificate key file has permissions of 400
+Only in first document: you should execute the command below to verify that the docker socket file has permissions of 660 or more restrictive permissions
+Only in first document: you should not expose host devices to containers directly.
+Only in first document: you should only share the host device using appropriate permissions.
+Only in first document: you should use granular permissions as appropriate to your organization.
+Only in first document: you should verify that the docker server certificate key file has permissions of 400
+Only in second document: /etc/default/docker file permissions
+Only in second document: /etc/docker file permissions
+Only in second document: 1.2 general configuration
+Only in second document: 2 docker daemon configuration
+Only in second document: 2.1 run the docker daemon as a non-root user, if possible
+Only in second document: 2.1.1
+Only in second document: 2.11
+Only in second document: 2.13
+Only in second document: 2.14
+Only in second document: 2.15
+Only in second document: 2.16
+Only in second document: 2.18
+Only in second document: 2.2 ensure network traffic is restricted between containers on the default bridge
+Only in second document: 2.2.1
+Only in second document: 2.3 ensure the logging level is set to 'info'
+Only in second document: 2.3.1
+Only in second document: 2.4 ensure docker is allowed to make changes to iptables
+Only in second document: 2.5 ensure insecure registries are not used
+Only in second document: 2.7
+Only in second document: 2.8
+Only in second document: 3 docker daemon configuration files
+Only in second document: 3.1
+Only in second document: 3.1 ensure that the docker.service file ownership is set to root:root
+Only in second document: 3.1.1
+Only in second document: 3.1.1 ensure auditing is configured for the docker daemon
+Only in second document: 3.1.1 ensure that tls ca certificate file permissions are set to 444 or more restrictively  
+Only in second document: 3.1.10 ensure that the docker server certificate file permissions are set to 400 or more restrictively
+Only in second document: 3.1.11 ensure that daemon.json file permissions are set to 644 or more restrictively
+Only in second document: 3.1.12 ensure that the docker socket file permissions are set to 660 or more restrictively
+Only in second document: 3.1.13 ensure that container's root filesystem is mounted as read only
+Only in second document: 3.1.14 ensure that the container's root filesystem is mounted as read only
+Only in second document: 3.1.15 ensure that the container's root filesystem is mounted as read only
+Only in second document: 3.1.16 ensure that the container's root filesystem is mounted as read only
+Only in second document: 3.1.17 ensure that the container's root filesystem is mounted as read only
+Only in second document: 3.1.18 ensure that the container's root filesystem is mounted as read only
+Only in second document: 3.1.19 ensure that the container's root filesystem is mounted as read only
+Only in second document: 3.1.2 ensure that the docker server certificate file permissions are set to 444 or more restrictively  
+Only in second document: 3.1.2 ensure the logging level is set to 'info'
+Only in second document: 3.1.20 ensure that the container's root filesystem is mounted as read only
+Only in second document: 3.1.21 ensure that the container's root filesystem is mounted as read only
+Only in second document: 3.1.22 ensure that the container's root filesystem is mounted as read only
+Only in second document: 3.1.23 ensure that the container's root filesystem is mounted as read only
+Only in second document: 3.1.24 ensure that the container's root filesystem is mounted as read only
+Only in second document: 3.1.25 ensure that the container's root filesystem is mounted as read only
+Only in second document: 3.1.26 ensure that the container's root filesystem is mounted as read only
+Only in second document: 3.1.3 ensure that docker.service file permissions are appropriately set
+Only in second document: 3.1.3 ensure that the docker socket file permissions are set to 660 or more restrictively  
+Only in second document: 3.1.4 ensure that daemon.json file permissions are set to 644 or more restrictively  
+Only in second document: 3.1.4 ensure that docker.socket file permissions are set to 644 or more restrictive
+Only in second document: 3.1.5 ensure that /etc/docker directory permissions are set to 755 or more restrictively
+Only in second document: 3.1.5 ensure that the container's root filesystem is mounted as read only  
+Only in second document: 3.1.6 ensure that /etc/default/docker file permissions are set to 644 or more restrictively
+Only in second document: 3.1.6 ensure that cgroup usage is confirmed  
+Only in second document: 3.1.7 ensure that registry certificate file permissions are set to 444 or more restrictively
+Only in second document: 3.1.8 ensure that daemon.json file permissions are set to 644 or more restrictively
+Only in second document: 3.1.9 ensure that tls ca certificate file permissions are set to 444 or more restrictively
+Only in second document: 3.10 ensure that tls ca certificate file permissions are set to 444 or more restrictively (manual)
+Only in second document: 3.11 ensure that docker server certificate file ownership is set to root:root (manual)
+Only in second document: 3.12 ensure that the docker server certificate file permissions are set to 444 or more restrictively (manual)
+Only in second document: 3.13 ensure that the docker server certificate key file ownership is set to root:root (manual)
+Only in second document: 3.14 ensure that the docker server certificate key file permissions are set to 400 (manual)
+Only in second document: 3.15 ensure that the docker socket file ownership is set to root:docker (automated)
+Only in second document: 3.16 ensure that the docker socket file permissions are set to 660 or more restrictively (automated)
+Only in second document: 3.2
+Only in second document: 3.2.1 ensure that the minimum number of manager nodes have been created in a swarm  
+Only in second document: 3.2.2 ensure that docker's secret management commands are used for managing secrets in a swarm cluster  
+Only in second document: 3.3
+Only in second document: 3.3 ensure that docker.socket file ownership is set to root:root (automated)
+Only in second document: 3.4
+Only in second document: 3.4 ensure that docker.socket file permissions are set to 644 or more restrictive (automated)
+Only in second document: 3.5
+Only in second document: 3.5 ensure that the /etc/docker directory ownership is set to root:root (automated)
+Only in second document: 3.6 ensure that /etc/docker directory permissions are set to 755 or more restrictively (automated)
+Only in second document: 3.7 ensure that registry certificate file ownership is set to root:root (manual)
+Only in second document: 3.8 ensure that registry certificate file permissions are set to 444 or more restrictively (manual)
+Only in second document: 3.9 ensure that tls ca certificate file ownership is set to root:root (manual)
+Only in second document: 5.17
+Only in second document: 5.18
+Only in second document: 5.19
+Only in second document: 5.21
+Only in second document: 5.22
+Only in second document: 5.23
+Only in second document: 5.24
+Only in second document: 5.25
+Only in second document: 5.26
+Only in second document: 5.27
+Only in second document: 5.30
+Only in second document: 5.31
+Only in second document: 5.32
+Only in second document: 6.1
+Only in second document: 6.2
+Only in second document: 7.2
+Only in second document: 7.3
+Only in second document: 7.5
+Only in second document: 7.6
+Only in second document: 7.7
+Only in second document: 7.8
+Only in second document: 7.9
+Only in second document: account management
+Only in second document: add a rule for /run/containerd
+Only in second document: add audit rule for /usr/bin/runc
+Only in second document: add support for cis-cat 8
+Only in second document: add support for docker 24
+Only in second document: add support for docker v24
+Only in second document: additionally, you should not create a mapping of sensitive directories from the host to container volumes.
+Only in second document: admin privilege restriction
+Only in second document: allow docker to make changes to iptables
+Only in second document: allowlist authorized scripts
+Only in second document: apparmor profile enforcement
+Only in second document: apparmor profile filename
+Only in second document: apparmor/selinux
+Only in second document: application whitelisting
+Only in second document: apply custom seccomp profile
+Only in second document: apply secure design principles in application architectures
+Only in second document: assessment status
+Only in second document: audit /etc/default/docker
+Only in second document: audit /etc/docker/daemon.json
+Only in second document: audit /run/containerd
+Only in second document: audit /run/containerd directory
+Only in second document: audit /run/containerd.log
+Only in second document: audit /usr/bin/containerd-shim file
+Only in second document: audit /usr/bin/containerd-shim-runc-v1 if applicable
+Only in second document: audit /usr/bin/runc
+Only in second document: audit /var/lib/docker
+Only in second document: audit /var/lib/docker/volumes
+Only in second document: audit all docker daemon activities
+Only in second document: audit docker containerd.sock
+Only in second document: audit docker daemon behavior
+Only in second document: audit docker daemon configuration
+Only in second document: audit docker daemon rules
+Only in second document: audit docker service
+Only in second document: audit docker service file location
+Only in second document: audit docker socket
+Only in second document: audit.rules.d
+Only in second document: audit: you should run the command below
+Only in second document: auditctl
+Only in second document: auditctl -l
+Only in second document: auditing docker files and directories
+Only in second document: auditing is configured for docker files and directories
+Only in second document: avoid using --ipc=host
+Only in second document: capability 1
+Only in second document: capability 2
+Only in second document: capability 3
+Only in second document: capability 4
+Only in second document: centralize, to the extent possible, audit log collection and retention across enterprise assets.
+Only in second document: cgroup usage
+Only in second document: cgroup-parent
+Only in second document: cgroupparent
+Only in second document: cgroupusageconfirmation
+Only in second document: change of file ownership
+Only in second document: chown root:root /usr/lib/systemd/system/docker.socket
+Only in second document: chown tls ca certificate file
+Only in second document: cis benchmarks
+Only in second document: cis benchmark™
+Only in second document: cis critical security controls®
+Only in second document: cis docker benchmark
+Only in second document: cis-cat - content assessment
+Only in second document: cis-cat automated assessment
+Only in second document: collect detailed audit logs
+Only in second document: compare the list of image ids created from step 1 and step 2 to find out images which are currently not being instantiated.
+Only in second document: configure docker authorization policy
+Only in second document: configure docker network
+Only in second document: configure swarm services to a specific host interface
+Only in second document: confirm cgroup usage
+Only in second document: container base images
+Only in second document: container health check
+Only in second document: container id
+Only in second document: container inventory
+Only in second document: container privileges
+Only in second document: container prune
+Only in second document: container root filesystem
+Only in second document: container running/stopped state
+Only in second document: container sprawl
+Only in second document: containerd socket permissions
+Only in second document: control
+Only in second document: controlled access based on the need to know
+Only in second document: copy vs add
+Only in second document: cpu share management
+Only in second document: cpu share values
+Only in second document: create a separate partition for audit logs
+Only in second document: create separate partition for containers
+Only in second document: data access control lists (acls)
+Only in second document: decide if you want to keep the images that are not currently in use. if they are not needed, delete them by executing the following command: docker rmi <image id>
+Only in second document: default apparmor profile
+Only in second document: default file permissions
+Only in second document: default ulimit configuration
+Only in second document: default value: this file may not be present on the system and in that case, this recommendation is not applicable.
+Only in second document: develop processes and technical controls to identify, classify, securely handle, retain, and dispose of data.
+Only in second document: device exposure
+Only in second document: device sharing permissions
+Only in second document: disable icc
+Only in second document: disable swarm mode on a docker engine instance unless this is needed
+Only in second document: disable userland proxy
+Only in second document: dm.basesize
+Only in second document: do not mount volumes in shared mode propagation
+Only in second document: do not use aufs as storage driver
+Only in second document: do not use aufs as the storage driver for your docker instance.
+Only in second document: do not use docker exec with the --user=root option
+Only in second document: do not use docker exec with the user=root option
+Only in second document: do not use shared mount propagation mode unless explicitly needed
+Only in second document: docker attach
+Only in second document: docker authorization plugin
+Only in second document: docker bridge configuration
+Only in second document: docker command authorization
+Only in second document: docker command execution
+Only in second document: docker command version
+Only in second document: docker container security options
+Only in second document: docker container sprawl
+Only in second document: docker content trust
+Only in second document: docker daemon
+Only in second document: docker daemon auditing
+Only in second document: docker daemon auditing is configured
+Only in second document: docker daemon cgroup usage
+Only in second document: docker daemon configuration
+Only in second document: docker daemon configuration files
+Only in second document: docker daemon currently requires access to the docker socket which is, by default, owned by the user root and the group docker.
+Only in second document: docker daemon mode
+Only in second document: docker daemon parameter
+Only in second document: docker daemon partition creation is configured
+Only in second document: docker daemon permissions
+Only in second document: docker daemon service requires iptables rules to be enabled before it starts
+Only in second document: docker daemon tls authentication
+Only in second document: docker daemon user namespace
+Only in second document: docker directory permissions
+Only in second document: docker engine v26.1.4
+Only in second document: docker exec
+Only in second document: docker exec --interactive --tty
+Only in second document: docker exec command permissions
+Only in second document: docker exec with --privileged option
+Only in second document: docker exec with privileged option
+Only in second document: docker files and directories auditing is configured
+Only in second document: docker host
+Only in second document: docker image sprawl
+Only in second document: docker image versioning
+Only in second document: docker info
+Only in second document: docker inspect --format='{{ .state.pid }}' $(docker ps -q) | while read -r line; do ps -h -p "$line" -o pid,user; done
+Only in second document: docker node certificates
+Only in second document: docker ps
+Only in second document: docker secret management
+Only in second document: docker service ownership
+Only in second document: docker shared-storage volume plugin
+Only in second document: docker socket not mounted inside containers
+Only in second document: docker support
+Only in second document: docker swarm auto-lock
+Only in second document: docker swarm manager node count
+Only in second document: docker version
+Only in second document: docker version benchmark
+Only in second document: docker version check
+Only in second document: docker version control
+Only in second document: docker version reference
+Only in second document: docker version updates
+Only in second document: docker.service file location
+Only in second document: docker.socket file ownership
+Only in second document: docker.socket file permissions
+Only in second document: docker0 bridge
+Only in second document: enable anti-exploitation features
+Only in second document: enable docker authorization plugin
+Only in second document: enable iptables rules on all systems and networking devices
+Only in second document: enable use --tmpfs for temporary file writes to /tmp
+Only in second document: encrypt all sensitive information in transit
+Only in second document: encryption config
+Only in second document: ensure /etc/default/docker file ownership is set to 644 or more restrictively
+Only in second document: ensure /etc/default/docker file permissions are set to 644 or more restrictively
+Only in second document: ensure /etc/docker directory permissions are set to 444 or more restrictively
+Only in second document: ensure /etc/docker directory permissions are set to 755
+Only in second document: ensure /etc/docker is audited
+Only in second document: ensure /etc/sysconfig/docker file ownership is set to root:root
+Only in second document: ensure /etc/sysconfig/docker file permissions are set to 400 or more restrictively
+Only in second document: ensure /etc/sysconfig/docker file permissions are set to 644 or more restrictively
+Only in second document: ensure `--authorization-plugin` parameter is set
+Only in second document: ensure a separate partition for containers exists.
+Only in second document: ensure a separate partition for containers has been created (manual)
+Only in second document: ensure a separate partition should be created for audit logs
+Only in second document: ensure a user for the container has been created
+Only in second document: ensure auditing is configured for docker files and directories - /etc/default/docker  
+Only in second document: ensure auditing is configured for docker files and directories - /etc/docker  
+Only in second document: ensure auditing is configured for docker files and directories - /etc/docker/daemon.json  
+Only in second document: ensure auditing is configured for docker files and directories - /etc/sysconfig/docker  
+Only in second document: ensure auditing is configured for docker files and directories - /run/containerd (manual)
+Only in second document: ensure auditing is configured for docker files and directories - /run/containerd  
+Only in second document: ensure auditing is configured for docker files and directories - /usr/bin/containerd  
+Only in second document: ensure auditing is configured for docker files and directories - /usr/bin/containerd-shim (automated)
+Only in second document: ensure auditing is configured for docker files and directories - /usr/bin/containerd-shim-runc-v2 (automated)
+Only in second document: ensure auditing is configured for docker files and directories - /usr/bin/runc (automated)
+Only in second document: ensure auditing is configured for docker files and directories - /var/lib/docker  
+Only in second document: ensure auditing is configured for docker files and directories - containerd.sock  
+Only in second document: ensure auditing is configured for docker files and directories - docker.service  
+Only in second document: ensure auditing is configured for docker files and directories - docker.sock
+Only in second document: ensure auditing is configured for docker files and directories - docker.sock (automated)
+Only in second document: ensure auditing is configured for docker files and directories - docker.sock  
+Only in second document: ensure auditing is configured for the docker daemon (automated)
+Only in second document: ensure ca certificates are rotated as appropriate
+Only in second document: ensure cgroup usage is confirmed
+Only in second document: ensure container is restricted from acquiring additional privileges
+Only in second document: ensure container sprawl is avoided
+Only in second document: ensure container uses trusted base images
+Only in second document: ensure containers use only trusted base images
+Only in second document: ensure cpu priority
+Only in second document: ensure cpu priority is set appropriately
+Only in second document: ensure cpu priority is set appropriately on containers  
+Only in second document: ensure daemon.json file permissions are set to 644
+Only in second document: ensure daemon.json file permissions are set to 644 or more restrictive
+Only in second document: ensure daemon.json file permissions are set to 644 or more restrictively  
+Only in second document: ensure detailed audit logging for access or changes to sensitive data
+Only in second document: ensure docker daemon data directory is on a separate partition
+Only in second document: ensure docker exec commands are not used with root option
+Only in second document: ensure docker exec commands are not used with the privileged option (manual)
+Only in second document: ensure docker server certificate file permissions are set to 444 or more restrictively  
+Only in second document: ensure docker socket file permissions are set to 660 or more restrictively  
+Only in second document: ensure docker socket is not mounted inside any containers
+Only in second document: ensure docker socket ownership
+Only in second document: ensure docker.socket file permissions are set to 644
+Only in second document: ensure experimental features are not implemented in production
+Only in second document: ensure hairpin nat is available
+Only in second document: ensure host network namespace is not shared
+Only in second document: ensure image sprawl is avoided
+Only in second document: ensure images are scanned frequently for any vulnerabilities
+Only in second document: ensure incoming container traffic is bound to a specific host interface
+Only in second document: ensure incoming container traffic is bound to a specific host interface  
+Only in second document: ensure insecure registries are not used
+Only in second document: ensure linux kernel capabilities are restricted
+Only in second document: ensure logging level is set to 'info'
+Only in second document: ensure management plane traffic is separated
+Only in second document: ensure mount propagation mode is not set to shared (manual)
+Only in second document: ensure node certificates are rotated
+Only in second document: ensure privileged containers are not used  
+Only in second document: ensure registry certificate file permissions are set to 444
+Only in second document: ensure secrets are not stored in dockerfiles (manual)
+Only in second document: ensure selinux security options are set
+Only in second document: ensure sensitive host system directories are not mounted on containers
+Only in second document: ensure setuid and setgid permissions are removed  
+Only in second document: ensure swarm manager auto-lock key is rotated periodically
+Only in second document: ensure swarm mode is not enabled
+Only in second document: ensure swarm services are bound to a specific host
+Only in second document: ensure swarm services are bound to a specific host interface
+Only in second document: ensure that /etc/default/docker file ownership is set to 644 or more restrictively  
+Only in second document: ensure that /etc/default/docker file permissions are set to 644 or more restrictively
+Only in second document: ensure that /etc/default/docker file permissions are set to 644 or more restrictively  
+Only in second document: ensure that /etc/docker directory permissions are set to 755 or more restrictively (automated)
+Only in second document: ensure that /etc/sysconfig/docker file permissions are set to 644 or more restrictively  
+Only in second document: ensure that all containers have their ipc namespace enabled and host ipc namespace is not shared with any container
+Only in second document: ensure that all containers share resources equally
+Only in second document: ensure that all docker swarm overlay networks are 
+			encrypted  
+Only in second document: ensure that all docker swarm overlay networks are encrypted (manual)
+Only in second document: ensure that auditing is configured for the docker daemon  
+Only in second document: ensure that cgroup usage is confirmed.
+Only in second document: ensure that container is restricted from acquiring
+Only in second document: ensure that container is restricted from acquiring additional privileges (manual)
+Only in second document: ensure that containerd socket file permissions are set to 660 or more restrictively
+Only in second document: ensure that copy is used instead of add in dockerfiles (manual)
+Only in second document: ensure that copy is used instead of add in dockerfiles  
+Only in second document: ensure that cpu priority is set appropriately on containers.
+Only in second document: ensure that daemon.json file permissions are set to 644 or more restrictive
+Only in second document: ensure that daemon.json file permissions are set to 644 or more restrictively (manual)
+Only in second document: ensure that docker commands always make use of the
+Only in second document: ensure that docker commands always make use of the latest version of their image  
+Only in second document: ensure that docker container starts with a restricted set of linux kernel capabilities
+Only in second document: ensure that docker exec commands are not used with
+Only in second document: ensure that docker exec commands are not used with the privileged option (manual)
+Only in second document: ensure that docker exec commands are not used with the privileged option.
+Only in second document: ensure that docker exec commands are not used with the user=root option (manual)
+Only in second document: ensure that docker exec commands are not used with the user=root option.
+Only in second document: ensure that docker socket file permissions are set to 660 or more restrictively.
+Only in second document: ensure that docker swarm configuration
+Only in second document: ensure that docker's default bridge "docker0" is not used (manual)
+Only in second document: ensure that docker's secret management commands are 
+			used for managing secrets in a swarm cluster  
+Only in second document: ensure that docker.socket file permissions are set to 644 or more restrictive
+Only in second document: ensure that docker.socket file permissions are set to 644 or more restrictive (automated)
+Only in second document: ensure that experimental features are not enabled in production
+Only in second document: ensure that host devices are not directly exposed to containers (manual)
+Only in second document: ensure that host devices are not directly exposed to containers  
+Only in second document: ensure that host devices are not directly exposed to containers.
+Only in second document: ensure that incoming container traffic is bound to a specific host interface.
+Only in second document: ensure that linux kernel capabilities are restricted within containers  
+Only in second document: ensure that local logging has been enabled on all systems and networking devices
+Only in second document: ensure that logging, per the enterprise’s audit log management process, has been enabled across enterprise assets
+Only in second document: ensure that management plane traffic is separated from
+Only in second document: ensure that management plane traffic is separated from 
+			data plane traffic  
+Only in second document: ensure that registry certificate file permissions are set to 444 or more restrictively (manual)
+Only in second document: ensure that swarm manager auto-lock key is rotated periodically
+Only in second document: ensure that swarm manager auto-lock key is rotated periodically (manual)
+Only in second document: ensure that swarm services are bound to a specific host
+Only in second document: ensure that the 'on-failure' container restart policy is set to '5' (manual)
+Only in second document: ensure that the /etc/default/docker file ownership is set to root:root.
+Only in second document: ensure that the /etc/default/docker file permissions are set to 644 or more restrictively (manual)
+Only in second document: ensure that the /etc/default/docker file permissions are set to 644 or more restrictively.
+Only in second document: ensure that the /etc/docker directory ownership is set to root:root (automated)
+Only in second document: ensure that the /etc/docker directory ownership is set to root:root (manual)
+Only in second document: ensure that the /etc/docker directory permissions are set to 400  
+Only in second document: ensure that the /etc/docker directory permissions are set to 755 or more restrictively  
+Only in second document: ensure that the /etc/sysconfig/docker directory permissions are set to 644 or more restrictively  
+Only in second document: ensure that the /etc/sysconfig/docker file ownership is set to root:root.
+Only in second document: ensure that the /etc/sysconfig/docker file permissions are set 
+			to 644 or more restrictively
+Only in second document: ensure that the /etc/sysconfig/docker file permissions are set to 644 or more restrictively (manual)
+Only in second document: ensure that the /etc/sysconfig/docker file permissions are set to 644 or more restrictively.
+Only in second document: ensure that the container is restricted from acquiring
+Only in second document: ensure that the container is restricted from acquiring additional privileges.
+Only in second document: ensure that the container's root filesystem is mounted as read-only (manual)
+Only in second document: ensure that the container's root filesystem is mounted as read-only.
+Only in second document: ensure that the containerd socket file ownership is set to root:root (automated).
+Only in second document: ensure that the containerd socket file ownership is set to root:root.
+Only in second document: ensure that the containerd socket file permissions are set to 644 or more restrictively  
+Only in second document: ensure that the containerd socket file permissions are set to 660 or more restrictively (automated)
+Only in second document: ensure that the containerd socket file permissions are set to 660 or more restrictively (automated).
+Only in second document: ensure that the containerd socket file permissions are set to 660 or more restrictively.
+Only in second document: ensure that the default seccomp profile is not disabled.
+Only in second document: ensure that the default ulimit is overwritten at runtime if needed.
+Only in second document: ensure that the docker container socket file ownership is set to root:docker  
+Only in second document: ensure that the docker daemon data directory is on a separate partition (automated)
+Only in second document: ensure that the docker daemon port is on a separate partition
+Only in second document: ensure that the docker daemon.json file ownership is set to root:root (manual)
+Only in second document: ensure that the docker daemon.json file permissions are set to 644 or more restrictively (manual)
+Only in second document: ensure that the docker server certificate file ownership is set to root:root (manual)
+Only in second document: ensure that the docker server certificate file permissions are set to 444 or more restrictively
+Only in second document: ensure that the docker server certificate file permissions are set to 444 or more restrictively (manual)
+Only in second document: ensure that the docker server certificate key file ownership
+Only in second document: ensure that the docker server certificate key file ownership is set to root:root (manual)
+Only in second document: ensure that the docker socket file ownership is set to root:docker (automated)
+Only in second document: ensure that the docker socket file permissions are set to 660 
+            or more restrictively
+Only in second document: ensure that the docker socket file permissions are set to 660 or are configured more restrictively
+Only in second document: ensure that the docker socket file permissions are set to 660 or more restrictively
+Only in second document: ensure that the docker socket file permissions are set to 660 or more restrictively (automated)
+Only in second document: ensure that the docker socket is not mounted inside any
+Only in second document: ensure that the docker socket is not mounted inside any containers (manual)
+Only in second document: ensure that the host's device are not directly exposed to containers (manual)
+Only in second document: ensure that the host's device namespace is not shared.
+Only in second document: ensure that the host's ipc namespace is not shared (manual)
+Only in second document: ensure that the host's ipc namespace is not shared  
+Only in second document: ensure that the host's ipc namespace is not shared.
+Only in second document: ensure that the host's memory usage for containers is limited.
+Only in second document: ensure that the host's network namespace is not shared (manual)
+Only in second document: ensure that the host's network namespace is not shared.
+Only in second document: ensure that the host's process namespace is not shared (manual)
+Only in second document: ensure that the host's process namespace is not shared.
+Only in second document: ensure that the host's user namespaces are not shared (manual)
+Only in second document: ensure that the host's user namespaces are not shared.
+Only in second document: ensure that the host's uts namespace is not shared.
+Only in second document: ensure that the memory usage for containers is limited.
+Only in second document: ensure that the minimum number of manager nodes 
+			have been created in a swarm  
+Only in second document: ensure that the minimum number of manager nodes have been created in a swarm
+Only in second document: ensure that the swarm manager auto-lock key is rotated 
+			periodically  
+Only in second document: ensure that the version of docker is up to date
+Only in second document: ensure that there is no process for ssh server.
+Only in second document: ensure that these are rotated and archived periodically
+Only in second document: ensure that tls ca certificate file permissions are set to 444 or more restrictively (manual)
+Only in second document: ensure that unnecessary packages are not installed in the container  
+Only in second document: ensure that you are using the latest version of the images within your repository and not cached older versions
+Only in second document: ensure that, if applicable, an apparmor profile is enabled  
+Only in second document: ensure that, if applicable, docker daemon data directory is on a separate partition
+Only in second document: ensure that, if applicable, linux kernel capabilities are restricted within containers
+Only in second document: ensure that, if applicable, selinux security options are set  
+Only in second document: ensure the /etc/default/docker file permissions are set to 644
+Only in second document: ensure the /etc/sysconfig/docker file permissions are set to 644
+Only in second document: ensure the audit logs are rotated and archived periodically
+Only in second document: ensure the container's root filesystem is mounted as read only
+Only in second document: ensure the containerd socket file permissions are set to 660 or more restrictively  
+Only in second document: ensure the default cgroup usage has been confirmed (manual)
+Only in second document: ensure the default seccomp profile is enabled
+Only in second document: ensure the default seccomp profile is not disabled  
+Only in second document: ensure the docker daemon configuration file has the following configuration 
+			included "log-level": "info"
+Only in second document: ensure the docker daemon data directory is on a separate partition.
+Only in second document: ensure the docker daemon is owned by root
+Only in second document: ensure the docker daemon is running in daemon mode
+Only in second document: ensure the docker daemon starts a userland proxy service for port forwarding whenever a port is exposed.
+Only in second document: ensure the docker server certificate file permissions are set to 400
+Only in second document: ensure the docker server certificate key file is individually owned and group owned by root
+Only in second document: ensure the docker server certificate key file permissions are set to 444
+Only in second document: ensure the docker.service file is owned by root
+Only in second document: ensure the host's network namespace is not shared  
+Only in second document: ensure the host's process namespace is not shared  
+Only in second document: ensure the host's uts namespace is not shared (manual)
+Only in second document: ensure the host's uts namespace is not shared  
+Only in second document: ensure the memory usage for containers is limited  
+Only in second document: ensure the number of containers on a given host to the minimum number commensurate with serving production applications
+Only in second document: ensure there is no process for ssh server.
+Only in second document: ensure tls ca certificate file permissions are set to 444 or more restrictively.
+Only in second document: ensure update instructions are not used alone
+Only in second document: ensure userland proxy is disabled
+Only in second document: ensure userland proxy is disabled (manual)
+Only in second document: ensure, if applicable, an selinux security options are set
+Only in second document: establish secure configurations
+Only in second document: execute find command to verify permissions
+Only in second document: execute the below command and verify that aufs is not used as storage driver:
+Only in second document: execute the command echo $docker_content_trust
+Only in second document: exercise extreme care
+Only in second document: experimental feature
+Only in second document: experimental feature enabled
+Only in second document: file existence verification
+Only in second document: file ownership change
+Only in second document: file permissions for /etc/sysconfig/docker
+Only in second document: for example, stat -c %u:%g /usr/lib/systemd/system/docker.socket | grep -v root:root
+Only in second document: hardened host
+Only in second document: healthcheck instructions
+Only in second document: healthcheckcommand
+Only in second document: healthcheckinstruction
+Only in second document: host device exposure
+Only in second document: host ipc namespace sharing
+Only in second document: if the file does not exist, this recommendation is not applicable.
+Only in second document: if the file exists, execute the command below, including the correct file path to set the file permissions to 644 or more restrictively
+Only in second document: if the file exists, execute the command below, including the correct file path to verify that the file is owned and group-owned by root.
+Only in second document: if the file is not present, this check does not apply
+Only in second document: if the file is present, you should execute the command below: chmod 644 /etc/docker/daemon.json
+Only in second document: image history scan
+Only in second document: image scanning & rebuilds
+Only in second document: improve application security
+Only in second document: initialize the swarm with dedicated interfaces for management and data planes respectively.
+Only in second document: ipc mode
+Only in second document: ipc namespace enabled
+Only in second document: level 2 - docker - linux
+Only in second document: linux kernel capabilities
+Only in second document: linux kernel capabilities restriction
+Only in second document: linux kernel capability removal
+Only in second document: list all image ids that are currently instantiated by executing the command below
+Only in second document: list all the images present on the system by executing the command below
+Only in second document: locate the socket file location
+Only in second document: log-level
+Only in second document: logging driver property
+Only in second document: loggingdriver
+Only in second document: maintain secure images or templates for all systems in the enterprise based on the organization's approved configuration standards.
+Only in second document: memory configuration
+Only in second document: memory limit enforcement
+Only in second document: monitor and confirm cgroup usage
+Only in second document: mount point for /var/lib/docker
+Only in second document: net_raw capability removal
+Only in second document: no new privileges bit
+Only in second document: ownership of /etc/default/docker file
+Only in second document: ownership of /etc/docker directory
+Only in second document: ownership of /etc/sysconfig/docker file
+Only in second document: ownership of docker server certificate file
+Only in second document: partition for containers
+Only in second document: permissions
+Only in second document: permissions for /etc/docker directory
+Only in second document: permissions for /etc/sysconfig/docker
+Only in second document: pid mode
+Only in second document: privilege ports
+Only in second document: privileged containers
+Only in second document: process namespace
+Only in second document: process namespace isolation
+Only in second document: re-start containers making use of updated images
+Only in second document: readonlyrootfs option
+Only in second document: realigned milestones
+Only in second document: rebuild all images to include security patches
+Only in second document: recommendation 3.8
+Only in second document: recommendation 3.8 to stat for the file
+Only in second document: recommendation definition
+Only in second document: recommendation definitions
+Only in second document: reduce kernel surface
+Only in second document: registry certificate file permissions
+Only in second document: registry registries
+Only in second document: remediation: additionally, you should not create a mapping of sensitive directories from the host to container volumes.
+Only in second document: remove net_raw capability if not required
+Only in second document: remove setuid and setgid permissions
+Only in second document: remove setuid and setgid permissions in the images
+Only in second document: resolve this issues requires re-initialization of the swarm, specifying a specific interface for the --listen-addr parameter.
+Only in second document: resource management
+Only in second document: restrict administrator privileges to dedicated administrator accounts on enterprise assets
+Only in second document: restrict containers from acquiring additional privileges via suid or sgid.
+Only in second document: restrict containers from acquiring new privileges
+Only in second document: restrict inter-container communication
+Only in second document: restrict the container from acquiring additional privileges (manual)
+Only in second document: review docker daemon startup options
+Only in second document: review system calls
+Only in second document: rotate and archive audit logs
+Only in second document: rotate root ca certificates
+Only in second document: rotate root ca certificates as appropriate.
+Only in second document: run docker daemon as a non-root user
+Only in second document: run the command below and ensure that the experimental property is set to false in the server section
+Only in second document: run the command below for each image in the list above, and check how the authenticity of the packages is being determined.
+Only in second document: run the command below to get the list of images.
+Only in second document: run the command below to get the list of images:
+Only in second document: run the command below to verify that the directory is owned and group owned by root:
+Only in second document: run the following command: chown root:root <path to docker server certificate file>
+Only in second document: seccomp filtering
+Only in second document: seccomp profile
+Only in second document: secrets management
+Only in second document: security patch evaluation
+Only in second document: selinux enabled
+Only in second document: sensitive host system directories
+Only in second document: separate management plane traffic from data plane traffic
+Only in second document: separate management plane traffic from data plane traffic.
+Only in second document: set docker daemon log level to info
+Only in second document: set docker server certificate file permissions
+Only in second document: set docker server certificate key file ownership
+Only in second document: set docker server certificate key file permissions
+Only in second document: set docker socket ownership
+Only in second document: set permissions to 444
+Only in second document: set permissions to 755
+Only in second document: set socket ownership
+Only in second document: set the file permissions of the docker socket file to 660
+Only in second document: set the file permissions to 644
+Only in second document: set the ownership and group ownership for the directory to root.
+Only in second document: set the ownership and group ownership for the file to root
+Only in second document: setting directory ownership
+Only in second document: setting docker server certificate key file permissions to 400
+Only in second document: setting file ownership
+Only in second document: setting individual ownership and group ownership for docker server certificate file
+Only in second document: signed artifact validation
+Only in second document: signed artifacts
+Only in second document: specify network interface for swarm services
+Only in second document: ssh daemon
+Only in second document: ssh destionation
+Only in second document: ssh dns
+Only in second document: stat for the file
+Only in second document: store the master images and templates on securely configured servers, validated with integrity monitoring tools, to ensure that only authorized changes to the images are possible.
+Only in second document: subgid
+Only in second document: subuid
+Only in second document: swarm service binding
+Only in second document: this command should not return any data.
+Only in second document: tls ca certificate file ownership
+Only in second document: tls certificate management
+Only in second document: tmpfs
+Only in second document: tmpfs option
+Only in second document: typographical conventions
+Only in second document: ulimit
+Only in second document: ulimit overwrite
+Only in second document: uninstall ssh daemon from container
+Only in second document: uninstall the ssh daemon from the container and use and use docker exec to enter a container on the remote host.
+Only in second document: unnecessary packages
+Only in second document: use --no-cache flag during docker build process to avoid using cached layers
+Only in second document: use --tmpfs
+Only in second document: use a secure package distribution mechanism of your choice to ensure the authenticity of software packages.
+Only in second document: use copy instead of add
+Only in second document: use docker exec to enter a container
+Only in second document: use docker rw mounts
+Only in second document: use docker rw mounts at a container's runtime to persist container data
+Only in second document: use docker shared data volumes
+Only in second document: use docker shared data volumes for persistent data writes
+Only in second document: use docker volume create
+Only in second document: use docker's in-built secret management command for managing secrets in a swarm cluster (manual)
+Only in second document: use docker's user-defined networks
+Only in second document: use ipc namespace isolation
+Only in second document: use only tagged images as appropriate
+Only in second document: use standard, industry-recommended hardening configuration templates for application infrastructure
+Only in second document: use technical controls, such as application allowlisting, to ensure that only authorized software can execute or be accessed.
+Only in second document: use the --pids-limit flag with an appropriate value when launching the container
+Only in second document: use unique passwords for all enterprise assets.
+Only in second document: use update instructions together with install instructions and version pinning
+Only in second document: user
+Only in second document: user creation
+Only in second document: user id
+Only in second document: user namespace support
+Only in second document: utilize the docker shared-storage volume plugin for docker data volume to persist container data
+Only in second document: verification of directory ownership
+Only in second document: verification of file ownership
+Only in second document: verification of tls ca certificate ownership
+Only in second document: verified packages
+Only in second document: verify audit rule
+Only in second document: verify audit rule for /etc/docker
+Only in second document: verify audit rule for /usr/bin/containerd
+Only in second document: verify audit rule for /usr/bin/containerd-shim
+Only in second document: verify audit rule present relating to /etc/containerd/config.toml file
+Only in second document: verify directory permissions
+Only in second document: verify docker server certificate file permissions
+Only in second document: verify docker server certificate key file permissions
+Only in second document: verify docker socket ownership
+Only in second document: verify no_new_priv setting
+Only in second document: verify socket ownership
+Only in second document: verify that the /etc/docker directory ownership and group ownership is correctly set to root
+Only in second document: verify that the /etc/sysconfig/docker file individual ownership and group ownership is correctly set to root:root
+Only in second document: verify that the file does not exist
+Only in second document: verify that the version of all software acquired from outside your organization is still supported
+Only in second document: verify that there is an audit rule corresponding to /usr/bin/containerd-shim-runc-v1 file
+Only in second document: verify that there is an audit rule corresponding to /usr/bin/containerd-shim-runc-v2 file
+Only in second document: verify the audit rule for docker.sock
+Only in second document: verify the authenticity of packages before installing them into images.
+Only in second document: version control ig 1
+Only in second document: version control ig 2
+Only in second document: version control ig 3
+Only in second document: where multi-factor authentication is not supported, accounts will use passwords that are unique to that system.
+Only in second document: you should only allow container services to be contacted through a specific external interface on the host machine.
+Only in second document: you should remove any untrusted users from the docker group.
