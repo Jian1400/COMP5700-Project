@@ -22,10 +22,14 @@ jobs:
         with:
           python-version: "3.14"
 
-      - name: Install dependencies
+      - name: Install CPU-only PyTorch
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
+
+      - name: Install remaining dependencies
+        run: |
+          grep -v -i '^torch==' requirements.txt > /tmp/requirements-ci.txt
+          pip install -r /tmp/requirements-ci.txt
 
       - name: Run tests
         run: |
