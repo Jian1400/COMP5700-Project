@@ -26,7 +26,7 @@ Document:
 
 
 
-few-shot:
+## few-shot:
 
 Extract the key data elements and their requirements from the following document.
 
@@ -65,7 +65,7 @@ Document:
 
 
 
-chain-of-thought:
+## chain-of-thought:
 
 Carefully analyze the document to identify its key data elements
 and the requirements associated with each element.
